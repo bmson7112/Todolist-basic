@@ -1,0 +1,66 @@
+--- DAY1 ---
+
+*HTML LÀ GÌ:
+-HTML viết tắt của Hypertext Markup Language là ngôn ngữ lập trình dùng để xây dựng và cấu trúc lại các thành phần có trong Website.
+-HTML tạm dịch là ngôn ngữ đánh dấu siêu văn bản. Người ta thường sử dụng HTML trong việc phân chia các đoạn văn, heading, links, blockquotes,…
+-HTML có rất nhiều thẻ khác nhau. Mỗi thẻ sẽ có những tác dụng nhất định, giúp xây dựng nên một cấu trúc hoàn chỉnh cho Website.
+-Có 2 nhóm thẻ chính trong HTML:
+
++Block: định nghĩa bố cục cho trang web (phân đoạn, tiêu đề, danh sách, phân nhóm, ...).Đặc điểm của thẻ này được thấy rõ khi sử dụng là sau đó các phần tử như thẻ khác, chữ, hình ảnh sẽ rơi xuống dòng khác.
+vd:
+<h1>, ..., <h6>
+<p>
+<div>
+<dl>, <dt>, <dd>
+<ul>, <ol>, <li>
+
++Inline: định nghĩa các phần tử chi tiết của trang web (hiển thị hình ảnh, ngắt dòng văn bản, tạo hyperlink, ...).Đặc điểm của loại thẻ này khi sử dụng thì các phần tử có tính chất inline sẽ chung 1 dòng, như sau thẻ <a> thì các chữ khác vẫn liền kề sau đó.
+vd:
+<a> </a>
+<img />
+<br />
+<strong> </strong> / <b> </b>
+<em> </em> / <i> </i>
+<u> </u>
+
+
+*BỐ CỤC CỦA 1 TRANG WEB:
+- Header: Phần đầu của website, thường chứa logo/ banner/ ô tìm kiếm/ thanh menu…
+- Content: Nội dung, bài viết trên trang web
+- Footer: Phần chân trang chứa các thông tin liên hệ, bản quyền…
+- Ngoài ra, còn bao gồm các thành phần khác như:
++ Navigation: Thanh điều hướng (thanh ngang) chứa các menu chính của web giúp người dùng có thể hiểu hơn về cấu trúc web.
++ Sidebar: Thanh bên chứa các bài viết liên quan, các mục quảng cáo, menu phụ,…
+
+
+*CÁC THÀNH PHẦN CƠ BẢN:
+-Header
+-Logo
+-Văn bản giới thiệu
+-Search box (Hộp tìm kiếm)
+-Site ID
+-Thanh menu điều hướng
+-Slider
+-Scan columns 
+-Content			
+-Footer
+
+
+*SỰ KHÁC NHAU GIỮA HTML VÀ CSS
+-Chức năng: HTML được sử dụng để xác định cấu trúc một trang web, không được dùng với mục đích trình bày và hiển thị. CSS được sử dụng để tạo kiểu cho trang web thông qua các đặc điểm phong cách khác nhau, dùng với mục đích trình bày và hiển thị.  
+
+-Thành phần: Cấu trúc cơ bản của HTML gồm các thẻ và nội dung. CSS được cấu tạo bởi các bộ chọn và khối khai báo. 
+
+-Tính liên quan: CSS có thể được sử dụng trong các file HTML. Nhưng HTML thì không thể dùng được trong các style sheet của CSS. 
+
+-Phương pháp sử dụng: Trong HTML, phương pháp sử dụng là không xác định. Trong CSS, bạn có thể sử dụng style sheet External, Internal hoặc Inline.  
+
+-Sao lưu và hỗ trợ: So với CSS, HTML có ít sao lưu và hỗ trợ hơn.
+
+*PHÂN BIỆT HTML ELEMENT và HTML ATTRIBUTE?
+-HTML ELEMENT:là danh sách những thẻ html mà trình duyệt hỗ trợ, và nó cũng nằm trong danh sách các thẻ html mà WWW đã quy định.
+-HTML ATTRIBUTE:
++Tất cả các yếu tố HTML có thể có thuộc tính
++Thuộc tính cung cấp thêm thông tin về các yếu tố
++Thuộc tính luôn được chỉ định trong thẻ bắt đầu
++Các thuộc tính thường có các cặp tên/ giá trị. VD:<img src="img_girl.jpg" alt="Girl with a jacket">, <img src="img_girl.jpg" width="500" height="600">, .....

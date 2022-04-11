@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Forms-Table-List</title>
+    <link rel="stylesheet" href="./CSS/form.css">
+</head>
+
+<body class="header">
+    <center>
+        <h1 class="garena">Đăng nhập vào tài khoản Garena</h1>
+        <div>
+            <form>
+                
+                    <label for="fname" style="font-size:25px">Tên đăng nhập:</label><br>
+                    <input type="text" id="fname" name="ten"><br>
+                    <label for="lname" style="font-size:25px">Mật khẩu:</label><br>
+                    <input type="text" id="lname" name="mk"><br><br>
+                    <input type="button" value="Đăng nhập">
+                
+                    <h2 class="garena">Nạp thẻ</h2>
+                    <p style="font-size:18px; font-weight:bold">Chọn nhà mạng</p>
+                    <input type="radio" id="viettel" name="1" value="Viettel">
+                    <label for="viettel" style="font-size:22px">Viettel</label><br>
+                    <input type="radio" id="Vina" name="1" value="Vina">
+                    <label for="Vina" style="font-size:22px">Vinaphone</label><br>
+                    <input type="radio" id="Mobi" name="1" value="Mobi">
+                    <label for="Mobi" style="font-size:22px">Mobiphone</label>
+
+                    <p style="font-size:18px; font-weight:bold">Mệnh giá</p>
+
+                    <input type="radio" id="20" name="2" >
+                    <label for="20" style="font-size:22px">20000đ</label><br>
+                    <input type="radio" id="100" name="2" >
+                    <label for="100" style="font-size:22px">100000đ</label><br>
+                    <input type="radio" id="200" name="2" >
+                    <label for="200" style="font-size:22px">200000đ</label><br>
+        
+                    <label for="soluong" style="font-size:19px; font-weight:bold">Số lượng</label>
+                    <input type="number" id="soluong" min="0" max="10"><br><br>
+
+                    <label for="email" style="font-size:18px; font-weight:bold">Email xác nhận</label><br>
+                    <input type="email" id="email" name="email">
+                    <input type="submit" value="Gửi"><br>
+
+                    <lable for="otp" style="font-size:18px; font-weight:bold">Mã xác nhận</lable><br>
+                    <input type="text" id="otp"> 
+                    <input type="submit" value="Gửi"><br><br>
+                    <input type="submit" value="Xác nhận nạp thẻ" style="font-size:18px; font-weight:bold"><br>
+            </form>
+
+        </div>
+    </center>
+</body>
+
+</html>

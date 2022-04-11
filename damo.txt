@@ -1,0 +1,16 @@
+front
+-html
+-css
+-javascrip
+-bootstrap
+-react
+
+
+Ngôn ngữ đánh dấu siêu văn bản,được sử dụng để tạo và cấu trúc các thành phần trong trang web hoặc ứng dụng, phân chia các đoạn văn, heading, titles, blockquotes…
+là ngôn ngữ tạo phong cách cho trang web,thêm style vào các phần tử HTML đó như đổi bố cục, màu sắc trang, đổi màu chữ, font chữ, thay đổi cấu trúc…
+1 framework HTML, CSS, và JavaScript
+dễ dàng thiết kế website theo 1 chuẩn nhất định, thân thiện với các thiết bị
+bao gồm những cái cơ bản có sẵn như: typography, forms, buttons, tables, navigation, modals, image carousels và nhiều thứ khác
+nhiều Component, Javascript hỗ trợ cho việc thiết kế reponsive của bạn dễ dàng, thuận tiện và nhanh chóng hơn.
+Javascript
+ là một ngôn ngữ lập trình website, được tích hợp và nhúng trong HTML giúp website sống động hơn.

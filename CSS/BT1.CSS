@@ -1,0 +1,16 @@
+h1 {
+    color: rgb(17, 23, 109);
+    font-size: 50px;
+}
+
+.page {
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image:url(https://www.hostinger.vn/huong-dan/wp-content/uploads/sites/10/2018/12/html-la-gi-768x576.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto; 
+    
+}

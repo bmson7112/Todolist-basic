@@ -1,0 +1,86 @@
+*CSS là chữ viết tắt của Cascading Style Sheets, nó là một ngôn ngữ được sử dụng để tìm và định dạng lại các phần tử được tạo ra bởi các ngôn ngữ đánh dấu (HTML). Nói ngắn gọn hơn là ngôn ngữ tạo phong cách cho trang web. Bạn có thể hiểu đơn giản rằng, nếu HTML đóng vai trò định dạng các phần tử trên website như việc tạo ra các đoạn văn bản, các tiêu đề, bảng,…thì CSS sẽ giúp chúng ta có thể thêm style vào các phần tử HTML đó như đổi bố cục, màu sắc trang, đổi màu chữ, font chữ, thay đổi cấu trúc…
+
+*Bố cục CSS thường chủ yếu dựa vào hình hộp và mỗi hộp đều chiếm những khoảng trống trên trang của bạn với các thuộc tính như:
+
+Padding: Gồm không gian xung quanh nội dung (ví dụ: xung quanh đoạn văn bản).
+Border: Là đường liền nằm ngay bên ngoài phần đệm.
+Margin: Là khoảng cách xung quanh bên ngoài của phần tử.
+
+*Basic Selectors
+Có 3 kiểu selectors chính
+
+Type selector: là các tag html. Ví dụ: div, p, h2,span..
+Class Selector: là các class. Ví dụ: .headlines, .summary, .sidebar
+ID selector: là các id. Ví dụ: #container, #sidebar...
+
+*Một số kiểu selector kết hợp:
+vd:
+
+#sidebar p {
+  font-size: 30px;
+}
+
+h2.headline {
+  font-size: 1.5 em;
+}
+
+*COLOR:
+-Thuộc tính CSS color đặt giá trị màu tiền cảnh của trang trí văn bản và văn bảncủa phần tử và đặt <currentcolor> >value. currentcolor có thể được sử dụng làm giá trị gián tiếp trên các thuộc tính khác và là mặc định cho các thuộc tính màu khác, chẳng hạn như border-color . 
+vd:
+<h1 style="color:Tomato;">Hello World</h1>
+<p style="color:DodgerBlue;">Lorem ipsum...</p>
+<p style="color:MediumSeaGreen;">Ut wisi enim...</p>
+
+*BACKGROUND
+-Là thuộc tính CSS được sử dụng để thêm hiệu ứng nền cho các yếu tố.
+Bao gồm:
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
+
+*BODER:Border trong CSS Thuộc tính border trong CSS cho phép bạn tạo ra đường viền của hộp phần tử. Các đường viền xuất hiện trực tiếp giữa phần lề (maring) và phần đệm (padding) của một phần tử.
+
+*TEXT: 
+-là những thuộc tính được dùng để định dạng cho văn bản.
+vd:text-align,text-indent,text-overflow,text-transform.....
+
+*FONT:
+-Thuộc tính font thiết lập font cho thành phần, bao gồm font chữ, độ rộng, ...
+vd:font-family,font-size,font-stretch,font-variant,....
+
+*MARGIN:
+-Đặc tính margin trong CSS được dùng để tạo khoảng trắng xung quanh phần tử, bên ngoài các đường viền. Các đặc tính này sẽ đặt lề cho từng cạnh của phần tử (trên, dưới, trái, phải).
+Các cạnh của lề trong CSS
+
+-CSS có các đặc tính xác định lề cho từng cạnh trong phần tử:
+
+margin-top
+margin-right
+margin-bottom
+margin-left
+-Tất cả các đặc tính lề có thể có các giá trị sau:
+
+auto - trình duyệt tự tính toán lề
+length - xác định lề theo px, pt, cm…
+% - xác định lề theo % so với chiều rộng của phần tử
+inherit - xác định lề kế thừa từ phần tử mẹ
+
+*PADDING:
+-Đặc tính padding trong CSS được dùng để tạo khoảng trắng xung quanh nội dung của phần tử và nằm bên trong các đường viền trong CSS. Các đặc tính thiết lập cả 4 phía (trên, dưới, trái, phải) cho từng phần tử.
+
+-Padding của từng cạnh
+
+-CSS có các đặc tính xác định padding cho từng cạnh của phần tử:
+
+padding-top
+padding-right
+padding-bottom
+padding-left
+-Tất cả các đặc tính có thể có các giá trị sau:
+
+length - xác định lề theo px, pt, cm…
+% - xác định lề theo % so với chiều rộng của phần tử
+inherit - xác định lề kế thừa từ phần tử mẹ
+
